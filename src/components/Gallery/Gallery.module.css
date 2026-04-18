@@ -1,0 +1,34 @@
+.section {
+  background: var(--cream);
+  padding: 100px 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 48px;
+}
+
+.item {
+  aspect-ratio: 3/4;
+  background: linear-gradient(135deg, #E8D5A8, #D4B876);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform .5s ease;
+}
+
+.item:hover { transform: scale(1.03); }
+
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+@media (max-width: 720px) {
+  .grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+}

@@ -1,0 +1,55 @@
+.section {
+  background: var(--cream-warm);
+  padding: 100px 24px;
+  position: relative;
+}
+
+.section::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 60px;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 60' preserveAspectRatio='none'><path d='M0,0 Q360,60 720,30 T1440,0 L1440,0 L0,0 Z' fill='%23FAF3E0'/></svg>") no-repeat;
+  background-size: 100% 100%;
+}
+
+.venueName {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: clamp(32px, 4.5vw, 46px);
+  color: var(--red-deep);
+  font-weight: 500;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.venueAddress {
+  font-family: var(--font-serif);
+  font-size: 19px;
+  color: var(--ink-soft);
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+
+.mapContainer {
+  position: relative;
+  max-width: 860px;
+  margin: 40px auto 0;
+  border: 1px solid rgba(212,175,55,.5);
+  box-shadow: 0 20px 50px rgba(107,15,26,.08);
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.mapContainer iframe {
+  display: block;
+  width: 100%;
+  height: 420px;
+  border: 0;
+}
+
+@media (max-width: 720px) {
+  .venueName { font-size: 30px; }
+  .venueAddress { font-size: 16px; }
+  .mapContainer iframe { height: 280px; }
+}
