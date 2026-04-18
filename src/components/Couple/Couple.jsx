@@ -27,7 +27,7 @@ export default function Couple() {
   return (
     <section className={styles.couple}>
       <div className="container">
-        <SectionHeader eyebrow="Dâu & Rể" title="Tân Lang · Tân Nương" />
+        <SectionHeader eyebrow="Rể & Dâu" title="Tân Lang · Tân Nương" />
 
         <div className={styles.grid}>
           <PersonCard person={groom} />
