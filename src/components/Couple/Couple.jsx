@@ -8,7 +8,7 @@ function PersonCard({ person }) {
       <div className={styles.photo}>
         <img src={person.photo} alt={person.name} />
       </div>
-      <div className={styles.role}>{person.role}</div>
+
       <div className={styles.name}>{person.name}</div>
       <div className={styles.parents}>
         <span>Ông Bà</span>

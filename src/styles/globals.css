@@ -87,7 +87,7 @@ h2.section-title {
   font-size: clamp(36px, 5vw, 52px);
   color: var(--red-deep);
   margin-bottom: 16px;
-  line-height: 1.1;
+  line-height: 1;
 }
 
 /* ===== SCROLL REVEAL ===== */

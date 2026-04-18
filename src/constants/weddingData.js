@@ -5,7 +5,7 @@ export const WEDDING = {
     role: 'Chú Rể · The Groom',
     parents: ['Bùi Lai', 'Nguyễn Thị Bạch Liền'],
     hometown: 'TP. Quảng Ngãi',
-    photo: 'https://i.ibb.co/your-groom-photo', // replace with actual
+    photo: '/images/chu-re.jpg',
   },
   bride: {
     name: 'Phạm Thị Sương Sương',
@@ -13,7 +13,7 @@ export const WEDDING = {
     role: 'Cô Dâu · The Bride',
     parents: ['Phạm Trọng Tùng', 'Cao Thị Thắm'],
     hometown: 'TP. Vũng Tàu',
-    photo: 'https://i.ibb.co/your-bride-photo', // replace with actual
+    photo: '/images/co-dau.jpg',
   },
   date: {
     display: '07 · 06 · 2026',
