@@ -24,7 +24,7 @@
   height: calc(100vh - 80px);
   max-height: 960px;
   z-index: 1000;
-  background-image: url('https://i.postimg.cc/mDcLg2RG/92652721-10026727.jpg');
+  background-image: url('/images/wedding/background.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

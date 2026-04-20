@@ -9,7 +9,11 @@ function PersonCard({ person }) {
         <img src={person.photo} alt={person.name} />
       </div>
 
-      <div className={styles.name}>{person.name}</div>
+      <div className={styles.name}>
+        {person.nameParts.map((part, i) => (
+          <span key={i}>{part}</span>
+        ))}
+      </div>
       <div className={styles.parents}>
         <span>Ông Bà</span>
         {person.parents.map((p, i) => (
@@ -27,12 +31,19 @@ export default function Couple() {
   return (
     <section className={styles.couple}>
       <div className="container">
-        <SectionHeader eyebrow="Rể & Dâu" title="Tân Lang · Tân Nương" />
+        <SectionHeader eyebrow="Our wedding" title="Tân Lang · Tân Nương" />
 
         <div className={styles.grid}>
           <PersonCard person={groom} />
           <div className={`${styles.divider} reveal`}>&amp;</div>
           <PersonCard person={bride} />
+        </div>
+
+        <div className={`${styles.announcement} reveal`}>
+          <p className={styles.announceSub}>Trân trọng báo tin <br></br>lễ vu quy của con chúng tôi</p>
+          <p className={styles.announceNames}>
+            {groom.name}<span className={styles.announceAmp}>&amp;</span>{bride.name}
+          </p>
         </div>
       </div>
     </section>
