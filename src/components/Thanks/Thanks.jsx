@@ -13,9 +13,9 @@ export default function Thanks() {
           Thank you for being part of our story.
           Chúng tôi mong được chia sẻ niềm hạnh phúc này cùng bạn trong ngày đặc biệt.
         </p>
-        <div className={`${styles.names} reveal`}>
-          {groom.shortName} &amp; {bride.shortName}
-        </div>
+        <p className={`${styles.names} reveal`}>
+          {groom.name}<span className={styles.namesAmp}>&amp;</span>{bride.name}
+        </p>
         <div className={styles.footer}>❦ {date.display} ❦</div>
       </div>
     </section>

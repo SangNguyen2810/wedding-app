@@ -35,7 +35,9 @@ export default function Couple() {
 
         <div className={styles.grid}>
           <PersonCard person={groom} />
-          <div className={`${styles.divider} reveal`}>&amp;</div>
+          <div className={styles.centerDivider}>
+            <span className={styles.centerAmp}>&amp;</span>
+          </div>
           <PersonCard person={bride} />
         </div>
 
