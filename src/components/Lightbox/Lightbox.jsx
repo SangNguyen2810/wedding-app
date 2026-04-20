@@ -18,6 +18,11 @@ export default function Lightbox({ images, startIndex, onClose }) {
   }, [startIndex])
 
   useEffect(() => {
+    document.body.style.overflow = 'hidden'
+    return () => { document.body.style.overflow = '' }
+  }, [])
+
+  useEffect(() => {
     const handleKey = (e) => {
       if (e.key === 'ArrowLeft')  goTo(current - 1)
       if (e.key === 'ArrowRight') goTo(current + 1)

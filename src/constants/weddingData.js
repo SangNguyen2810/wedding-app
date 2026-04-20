@@ -32,7 +32,7 @@ export const WEDDING = {
     name: 'Nhà Hàng Maxim\'s',
     address: '36 Nguyễn Thái Học, Phường 7',
     city: 'TP. Vũng Tàu',
-    mapSrc: 'https://www.openstreetmap.org/export/embed.html?bbox=107.0760%2C10.3450%2C107.0840%2C10.3510&layer=mapnik&marker=10.3476%2C107.0800',
+    mapSrc: 'https://maps.google.com/maps?q=36+Nguyễn+Thái+Học,+Phường+7,+Vũng+Tàu&output=embed',
     mapsUrl: 'https://www.google.com/maps/search/36+Nguyễn+Thái+Học+Phường+7+Vũng+Tàu',
   },
   gallery: [
@@ -40,6 +40,9 @@ export const WEDDING = {
     { src: 'public/images/wedding/chu-re.jpg', alt: 'Khoảnh khắc 2' },
     { src: 'public/images/wedding/co-dau.jpg', alt: 'Khoảnh khắc 3' },
     { src: 'public/images/wedding/co-dau.jpg', alt: 'Khoảnh khắc 4' },
+    { src: 'public/images/wedding/co-dau.jpg', alt: 'Khoảnh khắc 5' },
+    { src: 'public/images/wedding/co-dau.jpg', alt: 'Khoảnh khắc 6' },
+    { src: 'public/images/wedding/co-dau.jpg', alt: 'Khoảnh khắc 7' },
   ],
   cover: {
     bgImage: '/images/wedding/background.jpg',

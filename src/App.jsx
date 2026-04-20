@@ -4,7 +4,6 @@ import Couple from './components/Couple/Couple'
 import SaveTheDate from './components/SaveTheDate/SaveTheDate'
 import Venue from './components/Venue/Venue'
 import Gallery from './components/Gallery/Gallery'
-import Rsvp from './components/Rsvp/Rsvp'
 import Thanks from './components/Thanks/Thanks'
 import { useScrollReveal } from './hooks/useScrollReveal'
 
@@ -54,7 +53,6 @@ export default function App() {
           <SaveTheDate />
           <Venue />
           <Gallery />
-          <Rsvp />
           <Thanks />
         </main>
       </div>
