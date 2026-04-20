@@ -31,8 +31,8 @@
 }
 
 .names {
-  font-family: var(--font-serif);
-  font-style: italic;
+  font-family: 'Great Vibes', cursive;
+  font-style: normal;
   font-size: clamp(32px, 4vw, 48px);
   color: var(--red-deep);
   font-weight: 500;

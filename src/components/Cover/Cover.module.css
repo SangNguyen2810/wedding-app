@@ -102,9 +102,9 @@
 
 .groom,
 .bride {
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-weight: 700;
+  font-family: 'Great Vibes', cursive;
+  font-style: normal;
+  font-weight: 400;
   font-size: clamp(58px, 10vw, 112px);
   letter-spacing: -0.005em;
   display: block;
@@ -113,9 +113,9 @@
 }
 
 .amp {
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-weight: 700;
+  font-family: 'Great Vibes', cursive;
+  font-style: normal;
+  font-weight: 400;
   color: var(--gold);
   font-size: clamp(36px, 5.5vw, 58px);
   line-height: 1;
