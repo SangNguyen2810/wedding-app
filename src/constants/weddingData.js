@@ -32,7 +32,7 @@ export const WEDDING = {
     name: 'Nhà Hàng Maxim\'s',
     address: '36 Nguyễn Thái Học, Phường 7',
     city: 'TP. Vũng Tàu',
-    mapSrc: 'https://maps.google.com/maps?q=10.3664358,107.085085&z=16&output=embed',
+    mapSrc: 'https://maps.google.com/maps?q=Nhà+hàng+Maxim%27s+36+Nguyễn+Thái+Học+Tam+Thắng+Hồ+Chí+Minh+Vietnam&z=16&output=embed',
     mapsUrl: 'https://www.google.com/maps/search/36+Nguyễn+Thái+Học+Phường+7+Vũng+Tàu',
   },
   gallery: [
